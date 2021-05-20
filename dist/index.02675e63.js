@@ -1076,7 +1076,6 @@ try {
             columnNumber: 13
           }
         }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar, {
-          fluid: true,
           className: "navbar-sticky",
           expand: "md",
           __self: this,

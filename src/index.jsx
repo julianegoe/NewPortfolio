@@ -17,7 +17,7 @@ class App extends React.Component {
         return (
 
             <Router>
-                <Navbar fluid className="navbar-sticky" expand="md">
+                <Navbar className="navbar-sticky" expand="md">
                     <Navbar.Toggle className="m-3" aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="justify-content-center">
