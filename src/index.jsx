@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
@@ -11,47 +11,47 @@ import { Navbar, Nav } from 'react-bootstrap'
 import './index.scss'
 
 
-class App extends React.Component {
-
-    render() {
-        return (
-
-            <Router>
-                <Navbar className="navbar-sticky" expand="md">
-                    <Navbar.Toggle className="m-3" aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="justify-content-center">
-                            <Nav.Item className="m-3">
-                                <HashLink className="nav-link" smooth to="/#home">Home</HashLink>
-                            </Nav.Item>
-                            <Nav.Item className=" m-3">
-                                <HashLink className="nav-link" smooth to="/#about">About</HashLink>
-                            </Nav.Item>
-                            <Nav.Item className=" m-3">
-                                <HashLink className="nav-link" smooth to="/#work">Work</HashLink>
-                            </Nav.Item>
-                            <Nav.Item className="m-3">
-                                <HashLink className="nav-link" smooth to="/#contact">Contact</HashLink>
-                            </Nav.Item>
-                        </Nav>
-                    </ Navbar.Collapse>
-
-                </Navbar>
-                <HomeView />
-                <AboutView />
-                <WorkView />
-                <ContactView />
-                <Switch>
-                    <Route exact path="/#home" component={HomeView} />
-                    <Route exact path="/#about" component={AboutView} />
-                    <Route exact path="/#work" component={WorkView} />
-                    <Route exact path="/#contact" component={ContactView} />
-                </Switch>
-            </Router >
+function App() {
+    const [expanded, setExpanded] = useState(false)
 
 
-        )
-    }
+    return (
+
+        <Router>
+            <Navbar className="navbar-sticky" expanded={expanded} expand="md">
+                <Navbar.Toggle className="m-3" aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="justify-content-center">
+                        <Nav.Item className="m-3">
+                            <HashLink onClick={() => setExpanded(false)} className="nav-link" smooth to="/#home">Home</HashLink>
+                        </Nav.Item>
+                        <Nav.Item className=" m-3">
+                            <HashLink onClick={() => setExpanded(false)} className="nav-link" smooth to="/#about">About</HashLink>
+                        </Nav.Item>
+                        <Nav.Item className=" m-3">
+                            <HashLink onClick={() => setExpanded(false)} className="nav-link" smooth to="/#work">Work</HashLink>
+                        </Nav.Item>
+                        <Nav.Item className="m-3">
+                            <HashLink onClick={() => setExpanded(false)} className="nav-link" smooth to="/#contact">Contact</HashLink>
+                        </Nav.Item>
+                    </Nav>
+                </ Navbar.Collapse>
+
+            </Navbar>
+            <HomeView />
+            <AboutView />
+            <WorkView />
+            <ContactView />
+            <Switch>
+                <Route exact path="/#home" component={HomeView} />
+                <Route exact path="/#about" component={AboutView} />
+                <Route exact path="/#work" component={WorkView} />
+                <Route exact path="/#contact" component={ContactView} />
+            </Switch>
+        </Router >
+
+
+    )
 }
 
 const container = document.getElementsByClassName('root')[0];

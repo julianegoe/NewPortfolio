@@ -5,6 +5,10 @@ $about-color: #fcd5ce;
 $work-color:#d8e2dc;
 $contact-color:#ffd7ba;
 
+$headline-size: 4em;
+$icon-size: 4em;
+$paragraph-size: 1.75em;
+
 * {
     box-sizing: border-box;
   }
@@ -12,6 +16,24 @@ $contact-color:#ffd7ba;
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: $paragraph-size;
+    background-color: white;
+}
+
+i {
+    font-size: $icon-size;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
 }
 
 .headline {

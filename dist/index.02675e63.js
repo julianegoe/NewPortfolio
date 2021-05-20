@@ -1064,204 +1064,214 @@ try {
   var _componentsContactViewContactViewDefault = _parcelHelpers.interopDefault(_componentsContactViewContactView);
   var _reactBootstrap = require('react-bootstrap');
   require('./index.scss');
-  var _jsxFileName = "/Users/juliane/Coding/NewPortfolio/src/index.jsx";
-  class App extends _reactDefault.default.Component {
-    render() {
-      return (
-        /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 19,
-            columnNumber: 13
-          }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar, {
-          className: "navbar-sticky",
-          expand: "md",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 20,
-            columnNumber: 17
-          }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar.Toggle, {
-          className: "m-3",
-          "aria-controls": "responsive-navbar-nav",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 21,
-            columnNumber: 21
-          }
-        }), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar.Collapse, {
-          id: "responsive-navbar-nav",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 22,
-            columnNumber: 21
-          }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav, {
-          className: "justify-content-center",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 23,
-            columnNumber: 25
-          }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
-          className: "m-3",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 24,
-            columnNumber: 29
-          }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
-          className: "nav-link",
-          smooth: true,
-          to: "/#home",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 25,
-            columnNumber: 33
-          }
-        }, "Home")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
-          className: " m-3",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 27,
-            columnNumber: 29
-          }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
-          className: "nav-link",
-          smooth: true,
-          to: "/#about",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 28,
-            columnNumber: 33
-          }
-        }, "About")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
-          className: " m-3",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 30,
-            columnNumber: 29
-          }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
-          className: "nav-link",
-          smooth: true,
-          to: "/#work",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 31,
-            columnNumber: 33
-          }
-        }, "Work")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
-          className: "m-3",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 33,
-            columnNumber: 29
-          }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
-          className: "nav-link",
-          smooth: true,
-          to: "/#contact",
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 34,
-            columnNumber: 33
-          }
-        }, "Contact"))))), /*#__PURE__*/_reactDefault.default.createElement(_componentsHomeViewHomeViewDefault.default, {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 40,
-            columnNumber: 17
-          }
-        }), /*#__PURE__*/_reactDefault.default.createElement(_componentsAboutViewAboutViewDefault.default, {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 41,
-            columnNumber: 17
-          }
-        }), /*#__PURE__*/_reactDefault.default.createElement(_componentsWorkViewWorkViewDefault.default, {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 42,
-            columnNumber: 17
-          }
-        }), /*#__PURE__*/_reactDefault.default.createElement(_componentsContactViewContactViewDefault.default, {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 43,
-            columnNumber: 17
-          }
-        }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 44,
-            columnNumber: 17
-          }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
-          exact: true,
-          path: "/#home",
-          component: _componentsHomeViewHomeViewDefault.default,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 45,
-            columnNumber: 21
-          }
-        }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
-          exact: true,
-          path: "/#about",
-          component: _componentsAboutViewAboutViewDefault.default,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 46,
-            columnNumber: 21
-          }
-        }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
-          exact: true,
-          path: "/#work",
-          component: _componentsWorkViewWorkViewDefault.default,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 47,
-            columnNumber: 21
-          }
-        }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
-          exact: true,
-          path: "/#contact",
-          component: _componentsContactViewContactViewDefault.default,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 48,
-            columnNumber: 21
-          }
-        })))
-      );
-    }
+  var _jsxFileName = "/Users/juliane/Coding/NewPortfolio/src/index.jsx", _s = $RefreshSig$();
+  function App() {
+    _s();
+    const [expanded, setExpanded] = _react.useState(false);
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar, {
+        className: "navbar-sticky",
+        expanded: expanded,
+        expand: "md",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar.Toggle, {
+        className: "m-3",
+        "aria-controls": "responsive-navbar-nav",
+        onClick: () => setExpanded(expanded ? false : "expanded"),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 17
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar.Collapse, {
+        id: "responsive-navbar-nav",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav, {
+        className: "justify-content-center",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
+        className: "m-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
+        onClick: () => setExpanded(false),
+        className: "nav-link",
+        smooth: true,
+        to: "/#home",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 29
+        }
+      }, "Home")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
+        className: " m-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
+        onClick: () => setExpanded(false),
+        className: "nav-link",
+        smooth: true,
+        to: "/#about",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 29
+        }
+      }, "About")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
+        className: " m-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
+        onClick: () => setExpanded(false),
+        className: "nav-link",
+        smooth: true,
+        to: "/#work",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 29
+        }
+      }, "Work")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
+        className: "m-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
+        onClick: () => setExpanded(false),
+        className: "nav-link",
+        smooth: true,
+        to: "/#contact",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 29
+        }
+      }, "Contact"))))), /*#__PURE__*/_reactDefault.default.createElement(_componentsHomeViewHomeViewDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_componentsAboutViewAboutViewDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_componentsWorkViewWorkViewDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_componentsContactViewContactViewDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/#home",
+        component: _componentsHomeViewHomeViewDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 17
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/#about",
+        component: _componentsAboutViewAboutViewDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 17
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/#work",
+        component: _componentsWorkViewWorkViewDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 17
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/#contact",
+        component: _componentsContactViewContactViewDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 17
+        }
+      })))
+    );
   }
+  _s(App, "DuL5jiiQQFgbn7gBKAyxwS/H4Ek=");
+  _c = App;
   const container = document.getElementsByClassName('root')[0];
   _reactDomDefault.default.render(/*#__PURE__*/_reactDefault.default.createElement(App), container);
+  var _c;
+  $RefreshReg$(_c, "App");
   helpers.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
@@ -44903,6 +44913,7 @@ try {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Container, {
         fluid: true,
+        elementId: "about",
         id: "about",
         "data-aos": "fade",
         className: "About",
@@ -44966,6 +44977,9 @@ try {
   require('aos/dist/aos.css');
   require('../../index.scss');
   var _reactBootstrap = require('react-bootstrap');
+  var _urlAssetsPokemon_mockupPng = require('url:../../Assets/pokemon_mockup.png');
+  var _urlAssetsPokemon_mockupPngDefault = _parcelHelpers.interopDefault(_urlAssetsPokemon_mockupPng);
+  require('./work-view.scss');
   var _jsxFileName = "/Users/juliane/Coding/NewPortfolio/src/components/work-view/work-view.jsx", _s = $RefreshSig$();
   function WorkView() {
     _s();
@@ -44984,21 +44998,23 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 21,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
+        className: "justfy-content-xs-center justify-content-sm-center justfy-content-md-center justfy-content-lg-center justfy-content-xl-center ",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 22,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        xs: 12,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 23,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
@@ -45008,10 +45024,150 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 24,
           columnNumber: 21
         }
-      }, "Portfolio 💻"))))
+      }, "Portfolio 💻")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        xs: 6,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Image, {
+        "data-aos": "slide-right",
+        "data-aos-duration": "700",
+        className: "pokemon-image mt-5",
+        src: _urlAssetsPokemon_mockupPngDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 21
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        className: "p-3",
+        xs: 6,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("p", {
+        "data-aos": "slide-left",
+        "data-aos-duration": "700",
+        className: "mt-5 p-5",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 21
+        }
+      }, "This is a responsive web app build with HTML, CSS and Vanilla JS fetching data from the external PokeAPI."), /*#__PURE__*/_reactDefault.default.createElement("a", {
+        className: "mr-5",
+        href: "https://github.com/julianegoe/CF_pokedex_application",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("i", {
+        class: "bi bi-github",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 101
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("a", {
+        style: {
+          fontSize: "1.75em"
+        },
+        href: "https://julianegoe.github.io/CF_pokedex_application/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 21
+        }
+      }, "Live Demo"))), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
+        className: "justfy-content-xs-center justify-content-sm-center justfy-content-md-center justfy-content-lg-center justfy-content-xl-center mt-5 ",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        className: "p-3",
+        xs: 6,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("p", {
+        "data-aos": "slide-right",
+        "data-aos-duration": "700",
+        className: "mt-5 p-5",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 21
+        }
+      }, "This is a responsive web app build with HTML, CSS and Vanilla JS fetching data from the external PokeAPI."), /*#__PURE__*/_reactDefault.default.createElement("a", {
+        className: "mr-5",
+        href: "https://github.com/julianegoe/CF_pokedex_application",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("i", {
+        class: "bi bi-github",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 101
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("a", {
+        style: {
+          fontSize: "1.75em"
+        },
+        href: "https://julianegoe.github.io/CF_pokedex_application/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 21
+        }
+      }, "Live Demo")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        xs: 6,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Image, {
+        "data-aos": "slide-left",
+        "data-aos-duration": "700",
+        className: "pokemon-image mt-5",
+        src: _urlAssetsPokemon_mockupPngDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 21
+        }
+      }))))
     );
   }
   _s(WorkView, "OD7bBpZva5O2jO+Puf00hKivP7c=");
@@ -45026,7 +45182,55 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","aos":"7rvwx","aos/dist/aos.css":"Jc3gX","../../index.scss":"5iJih","react-bootstrap":"4n7hB","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"Jc3gX":[function() {},{}],"5iJih":[function() {},{}],"6ab7M":[function(require,module,exports) {
+},{"react":"3b2NM","aos":"7rvwx","aos/dist/aos.css":"Jc3gX","../../index.scss":"5iJih","react-bootstrap":"4n7hB","url:../../Assets/pokemon_mockup.png":"0aGQo","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./work-view.scss":"30cWZ"}],"Jc3gX":[function() {},{}],"5iJih":[function() {},{}],"0aGQo":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "pokemon_mockup.d9affce6.png"
+},{"./bundle-url":"3seVR"}],"3seVR":[function(require,module,exports) {
+"use strict";
+
+/* globals document:readonly */
+var bundleURL = null;
+
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+
+
+function getOrigin(url) {
+  let matches = ('' + url).match(/(https?|file|ftp):\/\/[^/]+/);
+
+  if (!matches) {
+    throw new Error('Origin not found');
+  }
+
+  return matches[0];
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+},{}],"30cWZ":[function() {},{}],"6ab7M":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

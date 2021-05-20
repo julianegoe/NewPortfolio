@@ -16,7 +16,7 @@ function AboutView() {
     }, [])
 
     return (
-        <Container fluid id="about" data-aos="fade" className="About" >
+        <Container fluid elementId="about" id="about" data-aos="fade" className="About" >
             <Row >
                 <Col>
                     <h1 className="headline" data-aos="fade" data-aos-duration="200">About 👩🏼‍💻</h1>
