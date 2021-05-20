@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.headline {
+  margin-top: 2.5em;
+}
+
+.navbar-sticky {
+  overflow: hidden;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  width: 100vw;
+  background-color: #fcd5ce;
+}
+
+.nav-link {
+  font-size: 1.75em;
+}
+
+.Home {
+  width: 100vw;
+  height: 200vh;
+  background-color: #f8edeb;
+}
+
+.Work {
+  width: 100vw;
+  height: 200vh;
+  background-color: #f8edeb;
+}
+
+.About {
+  width: 100vw;
+  height: 200vh;
+  background-color: #f8edeb;
+}
+
+.Contact {
+  width: 100vw;
+  height: 200vh;
+  background-color: #f8edeb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 10vw 40vw 40vw 10vw;
+  grid-template-rows: 25vh 25vh 25vh 25vh;
+  justify-items: center;
+}
+
+.grid__item {
+  grid-column: 2/4;
+  grid-row: 2/5;
+}
+
+.home-paragraph {
+  font-size: 1.75em;
+}

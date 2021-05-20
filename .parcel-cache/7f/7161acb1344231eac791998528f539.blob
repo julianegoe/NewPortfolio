@@ -1,0 +1,89 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _aos = require('aos');
+  var _aosDefault = _parcelHelpers.interopDefault(_aos);
+  require('aos/dist/aos.css');
+  require('../../index.scss');
+  require('./home-view.scss');
+  var _reactBootstrap = require('react-bootstrap');
+  var _jsxFileName = "/Users/juliane/Coding/NewPortfolio/src/components/home-view/home-view.jsx", _s = $RefreshSig$();
+  function HomeView() {
+    _s();
+    _react.useEffect(() => {
+      _aosDefault.default.init({
+        duration: 2000,
+        easing: 'ease-in'
+      });
+    }, []);
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Container, {
+        fluid: true,
+        id: "home",
+        "data-aos": "fade",
+        className: "Home",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
+        className: "justfy-content-xs-center justify-content-sm-center justfy-content-md-center justfy-content-lg-center justfy-content-xl-center ",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        xs: 8,
+        className: "mt-5",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+        className: "headline",
+        "data-aos": "fade",
+        "data-aos-duration": "500",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 21
+        }
+      }, "Hi there 👋🏻"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "home-paragraph mt-5",
+        "data-aos": "fade-up",
+        "data-aos-duration": "700",
+        "data-aos-delay": "500",
+        "data-aos-once": "true",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 21
+        }
+      }, "My name is Juliane. I'm an aspiring web developer from Berlin. I grew up in the 90s playing video games on SNES and watching catoons all afternoon. Media has always been around me and when we got our first computer in 1998 my path into media studies was paved. But it took me another 20 years and a career in journalism to realize that I could not only use software - I could actually create it myself."))))
+    );
+  }
+  _s(HomeView, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+  _c = HomeView;
+  ;
+  exports.default = HomeView;
+  var _c;
+  $RefreshReg$(_c, "HomeView");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

@@ -1,0 +1,73 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _aos = require('aos');
+  var _aosDefault = _parcelHelpers.interopDefault(_aos);
+  require('aos/dist/aos.css');
+  require('../../index.scss');
+  var _reactBootstrap = require('react-bootstrap');
+  var _jsxFileName = "/Users/juliane/Coding/NewPortfolio/src/components/work-view/work-view.jsx", _s = $RefreshSig$();
+  function WorkView() {
+    _s();
+    _react.useEffect(() => {
+      _aosDefault.default.init({
+        duration: 2000,
+        easing: 'ease-in'
+      });
+    }, []);
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Container, {
+        fluid: true,
+        id: "work",
+        "data-aos": "fade",
+        className: "Work",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+        className: "headline",
+        "data-aos": "fade",
+        "data-aos-duration": "500",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 21
+        }
+      }, "Portfolio 💻"))))
+    );
+  }
+  _s(WorkView, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+  _c = WorkView;
+  ;
+  exports.default = WorkView;
+  var _c;
+  $RefreshReg$(_c, "WorkView");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

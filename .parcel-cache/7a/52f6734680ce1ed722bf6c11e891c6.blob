@@ -1,0 +1,222 @@
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _react = require('react');
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactDom = require('react-dom');
+  var _reactDomDefault = _parcelHelpers.interopDefault(_reactDom);
+  var _reactRouterDom = require("react-router-dom");
+  var _reactRouterHashLink = require('react-router-hash-link');
+  var _componentsHomeViewHomeView = require('./components/home-view/home-view');
+  var _componentsHomeViewHomeViewDefault = _parcelHelpers.interopDefault(_componentsHomeViewHomeView);
+  var _componentsAboutViewAboutView = require('./components/about-view/about-view');
+  var _componentsAboutViewAboutViewDefault = _parcelHelpers.interopDefault(_componentsAboutViewAboutView);
+  var _componentsWorkViewWorkView = require('./components/work-view/work-view');
+  var _componentsWorkViewWorkViewDefault = _parcelHelpers.interopDefault(_componentsWorkViewWorkView);
+  var _componentsContactViewContactView = require('./components/contact-view/contact-view');
+  var _componentsContactViewContactViewDefault = _parcelHelpers.interopDefault(_componentsContactViewContactView);
+  var _reactBootstrap = require('react-bootstrap');
+  require('./index.scss');
+  var _jsxFileName = "/Users/juliane/Coding/NewPortfolio/src/index.jsx";
+  class App extends _reactDefault.default.Component {
+    render() {
+      return (
+        /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19,
+            columnNumber: 13
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar, {
+          fluid: true,
+          className: "navbar-sticky",
+          expand: "md",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 20,
+            columnNumber: 17
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar.Toggle, {
+          className: "m-3",
+          "aria-controls": "responsive-navbar-nav",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 21,
+            columnNumber: 21
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Navbar.Collapse, {
+          id: "responsive-navbar-nav",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav, {
+          className: "justify-content-md-start justify-content-sm-center",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 23,
+            columnNumber: 25
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
+          className: "nav-link m-3",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 24,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
+          smooth: true,
+          to: "/#home",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 25,
+            columnNumber: 33
+          }
+        }, "Home")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
+          className: "nav-link m-3",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 27,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
+          smooth: true,
+          to: "/#about",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28,
+            columnNumber: 33
+          }
+        }, "About")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
+          className: "nav-link m-3",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 30,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
+          smooth: true,
+          to: "/#work",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 31,
+            columnNumber: 33
+          }
+        }, "Work")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
+          className: "nav-link m-3",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 33,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
+          smooth: true,
+          to: "/#contact",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 34,
+            columnNumber: 33
+          }
+        }, "Contact"))))), /*#__PURE__*/_reactDefault.default.createElement(_componentsHomeViewHomeViewDefault.default, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 40,
+            columnNumber: 17
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement(_componentsAboutViewAboutViewDefault.default, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 41,
+            columnNumber: 17
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement(_componentsWorkViewWorkViewDefault.default, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 42,
+            columnNumber: 17
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement(_componentsContactViewContactViewDefault.default, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 43,
+            columnNumber: 17
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 44,
+            columnNumber: 17
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+          exact: true,
+          path: "/#home",
+          component: _componentsHomeViewHomeViewDefault.default,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 45,
+            columnNumber: 21
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+          exact: true,
+          path: "/#about",
+          component: _componentsAboutViewAboutViewDefault.default,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 46,
+            columnNumber: 21
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+          exact: true,
+          path: "/#work",
+          component: _componentsWorkViewWorkViewDefault.default,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 47,
+            columnNumber: 21
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+          exact: true,
+          path: "/#contact",
+          component: _componentsContactViewContactViewDefault.default,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 48,
+            columnNumber: 21
+          }
+        })))
+      );
+    }
+  }
+  const container = document.getElementsByClassName('root')[0];
+  _reactDomDefault.default.render(/*#__PURE__*/_reactDefault.default.createElement(App), container);
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

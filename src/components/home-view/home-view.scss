@@ -1,0 +1,31 @@
+@import '../../index.scss';
+
+$headline-size: 4em;
+$paragraph-size: 1.75em;
+
+* {
+    box-sizing: border-box;
+  }
+
+h1 {
+    font-size: $headline-size;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 10vw 40vw 40vw 10vw;
+    grid-template-rows: 25vh 25vh 25vh 25vh;
+    justify-items: center
+};
+
+.grid__item {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    
+};
+
+.home-paragraph {
+    font-size: $paragraph-size;
+};
+
