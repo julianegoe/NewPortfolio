@@ -1,6 +1,0 @@
-"use strict";
-if ("development" === 'production') {
-  module.exports = require('./react-router-hash-link.cjs.production.js');
-} else {
-  module.exports = require('./react-router-hash-link.cjs.development.js');
-}
