@@ -30635,7 +30635,11 @@ try {
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
-        xs: 8,
+        xs: 12,
+        sm: 8,
+        md: 8,
+        lg: 8,
+        xl: 8,
         className: "mt-5",
         __self: this,
         __source: {
