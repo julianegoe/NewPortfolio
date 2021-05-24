@@ -1056,8 +1056,7 @@ try {
   var _reactRouterHashLink = require('react-router-hash-link');
   var _componentsHomeViewHomeView = require('./components/home-view/home-view');
   var _componentsHomeViewHomeViewDefault = _parcelHelpers.interopDefault(_componentsHomeViewHomeView);
-  var _componentsAboutViewAboutView = require('./components/about-view/about-view');
-  var _componentsAboutViewAboutViewDefault = _parcelHelpers.interopDefault(_componentsAboutViewAboutView);
+  require('./components/about-view/about-view');
   var _componentsWorkViewWorkView = require('./components/work-view/work-view');
   var _componentsWorkViewWorkViewDefault = _parcelHelpers.interopDefault(_componentsWorkViewWorkView);
   var _componentsContactViewContactView = require('./components/contact-view/contact-view');
@@ -1136,25 +1135,6 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
-          columnNumber: 25
-        }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterHashLink.HashLink, {
-        onClick: () => setExpanded(false),
-        className: "nav-link",
-        smooth: true,
-        to: "/#about",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29,
-          columnNumber: 29
-        }
-      }, "About")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Nav.Item, {
-        className: " m-3",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 31,
           columnNumber: 25
         }
@@ -1195,13 +1175,6 @@ try {
           lineNumber: 41,
           columnNumber: 13
         }
-      }), /*#__PURE__*/_reactDefault.default.createElement(_componentsAboutViewAboutViewDefault.default, {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 13
-        }
       }), /*#__PURE__*/_reactDefault.default.createElement(_componentsWorkViewWorkViewDefault.default, {
         __self: this,
         __source: {
@@ -1231,16 +1204,6 @@ try {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46,
-          columnNumber: 17
-        }
-      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
-        exact: true,
-        path: "/#about",
-        component: _componentsAboutViewAboutViewDefault.default,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47,
           columnNumber: 17
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -30628,7 +30591,6 @@ try {
       /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Container, {
         fluid: true,
         id: "home",
-        "data-aos": "fade",
         className: "Home",
         __self: this,
         __source: {
@@ -30679,7 +30641,7 @@ try {
           lineNumber: 27,
           columnNumber: 21
         }
-      }, "My name is Juliane. I'm an aspiring web developer from Berlin. I grew up in the 90s playing video games on SNES and watching catoons all afternoon. Media has always been around me and when we got our first computer in 1998 my path into media studies was paved. But it took me another 20 years and a career in journalism to realize that I could not only use software - I could actually create it myself."))))
+      }, "My name is Juliane. I'm an aspiring web developer from Berlin."))))
     );
   }
   _s(HomeView, "OD7bBpZva5O2jO+Puf00hKivP7c=");
@@ -44979,6 +44941,10 @@ try {
   var _reactBootstrap = require('react-bootstrap');
   var _urlAssetsPokemon_mockupPng = require('url:../../Assets/pokemon_mockup.png');
   var _urlAssetsPokemon_mockupPngDefault = _parcelHelpers.interopDefault(_urlAssetsPokemon_mockupPng);
+  var _urlAssetsMyflixmockupPng = require('url:../../Assets/myflixmockup.png');
+  var _urlAssetsMyflixmockupPngDefault = _parcelHelpers.interopDefault(_urlAssetsMyflixmockupPng);
+  var _urlAssetsMovie_apiPng = require('url:../../Assets/movie_api.png');
+  var _urlAssetsMovie_apiPngDefault = _parcelHelpers.interopDefault(_urlAssetsMovie_apiPng);
   require('./work-view.scss');
   var _jsxFileName = "/Users/juliane/Coding/NewPortfolio/src/components/work-view/work-view.jsx", _s = $RefreshSig$();
   function WorkView() {
@@ -44993,12 +44959,11 @@ try {
       /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Container, {
         fluid: true,
         id: "work",
-        "data-aos": "fade",
         className: "Work",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 23,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
@@ -45006,7 +44971,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 24,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
@@ -45014,47 +44979,49 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 25,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
         className: "headline",
         "data-aos": "fade",
-        "data-aos-duration": "200",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24,
-          columnNumber: 21
-        }
-      }, "Portfolio 💻")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
-        xs: 6,
+        "data-aos-duration": "500",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26,
-          columnNumber: 17
-        }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Image, {
-        "data-aos": "slide-right",
-        "data-aos-duration": "700",
-        className: "pokemon-image mt-5",
-        src: _urlAssetsPokemon_mockupPngDefault.default,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27,
           columnNumber: 21
         }
-      })), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
-        className: "p-3",
-        xs: 6,
+      }, "Portfolio 💻")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        xs: 12,
+        md: 6,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29,
           columnNumber: 17
         }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Image, {
+        "data-aos": "slide-right",
+        "data-aos-duration": "700",
+        className: "pokemon-image mt-5",
+        src: _urlAssetsPokemon_mockupPngDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 21
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        className: "p-3",
+        xs: 12,
+        md: 6,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 17
+        }
       }, /*#__PURE__*/_reactDefault.default.createElement("p", {
         "data-aos": "slide-left",
         "data-aos-duration": "700",
@@ -45062,25 +45029,35 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 33,
           columnNumber: 21
         }
-      }, "This is a responsive web app build with HTML, CSS and Vanilla JS fetching data from the external PokeAPI."), /*#__PURE__*/_reactDefault.default.createElement("a", {
+      }, "This is a responsive web app build with HTML, CSS and Vanilla JS fetching data from the external PokeAPI."), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        style: {
+          textAlign: "center"
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("a", {
         className: "mr-5",
         href: "https://github.com/julianegoe/CF_pokedex_application",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
-          columnNumber: 21
+          lineNumber: 36,
+          columnNumber: 25
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("i", {
         class: "bi bi-github",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
-          columnNumber: 101
+          lineNumber: 36,
+          columnNumber: 105
         }
       })), /*#__PURE__*/_reactDefault.default.createElement("a", {
         style: {
@@ -45090,24 +45067,25 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
-          columnNumber: 21
+          lineNumber: 37,
+          columnNumber: 25
         }
-      }, "Live Demo"))), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
+      }, "Live Demo")))), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
         className: "justfy-content-xs-center justify-content-sm-center justfy-content-md-center justfy-content-lg-center justfy-content-xl-center mt-5 ",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 42,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
         className: "p-3",
-        xs: 6,
+        xs: 12,
+        md: 6,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 43,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -45117,57 +45095,143 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 44,
           columnNumber: 21
         }
-      }, "This is a responsive web app build with HTML, CSS and Vanilla JS fetching data from the external PokeAPI."), /*#__PURE__*/_reactDefault.default.createElement("a", {
-        className: "mr-5",
-        href: "https://github.com/julianegoe/CF_pokedex_application",
+      }, "This is the client side application for the myFlix API. It showcases several movies. Users can favorite movies and get information about each movie."), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        style: {
+          textAlign: "center"
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 46,
           columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("a", {
+        className: "mr-5",
+        href: "https://github.com/julianegoe/CF_myflix_client",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 25
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("i", {
         class: "bi bi-github",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
-          columnNumber: 101
+          lineNumber: 47,
+          columnNumber: 99
         }
       })), /*#__PURE__*/_reactDefault.default.createElement("a", {
         style: {
           fontSize: "1.75em"
         },
-        href: "https://julianegoe.github.io/CF_pokedex_application/",
+        href: "https://app-myflix.netlify.app/",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 21
+          lineNumber: 48,
+          columnNumber: 25
         }
-      }, "Live Demo")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
-        xs: 6,
+      }, "Live Demo"))), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        xs: 12,
+        md: 6,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 51,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Image, {
         "data-aos": "slide-left",
         "data-aos-duration": "700",
         className: "pokemon-image mt-5",
-        src: _urlAssetsPokemon_mockupPngDefault.default,
+        src: _urlAssetsMyflixmockupPngDefault.default,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 52,
           columnNumber: 21
         }
-      }))))
+      }))), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
+        className: "justfy-content-xs-center justify-content-sm-center justfy-content-md-center justfy-content-lg-center justfy-content-xl-center ",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        xs: 12,
+        md: 6,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Image, {
+        "data-aos": "slide-right",
+        "data-aos-duration": "700",
+        className: "pokemon-image mt-5",
+        src: _urlAssetsMovie_apiPngDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 21
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        className: "p-3",
+        xs: 12,
+        md: 6,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("p", {
+        "data-aos": "slide-left",
+        "data-aos-duration": "700",
+        className: "mt-5 p-5",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 21
+        }
+      }, "This is the MyFlix REST API for a for a web application that provides access to information about different movies, directors, and genres. It also comes with endpoint for registering users."), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        style: {
+          textAlign: "center"
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("a", {
+        className: "mr-5",
+        href: "https://github.com/julianegoe/CF_pokedex_application",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("i", {
+        class: "bi bi-github",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 105
+        }
+      }))))))
     );
   }
   _s(WorkView, "OD7bBpZva5O2jO+Puf00hKivP7c=");
@@ -45182,7 +45246,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","aos":"7rvwx","aos/dist/aos.css":"Jc3gX","../../index.scss":"5iJih","react-bootstrap":"4n7hB","url:../../Assets/pokemon_mockup.png":"0aGQo","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./work-view.scss":"30cWZ"}],"Jc3gX":[function() {},{}],"5iJih":[function() {},{}],"0aGQo":[function(require,module,exports) {
+},{"react":"3b2NM","aos":"7rvwx","aos/dist/aos.css":"Jc3gX","../../index.scss":"5iJih","react-bootstrap":"4n7hB","url:../../Assets/pokemon_mockup.png":"0aGQo","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./work-view.scss":"30cWZ","url:../../Assets/myflixmockup.png":"5WWRP","url:../../Assets/movie_api.png":"6jPDo"}],"Jc3gX":[function() {},{}],"5iJih":[function() {},{}],"0aGQo":[function(require,module,exports) {
 module.exports = require('./bundle-url').getBundleURL() + "pokemon_mockup.d9affce6.png"
 },{"./bundle-url":"3seVR"}],"3seVR":[function(require,module,exports) {
 "use strict";
@@ -45230,7 +45294,11 @@ function getOrigin(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
-},{}],"30cWZ":[function() {},{}],"6ab7M":[function(require,module,exports) {
+},{}],"30cWZ":[function() {},{}],"5WWRP":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "myflixmockup.9192f0bd.png"
+},{"./bundle-url":"3seVR"}],"6jPDo":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "movie_api.cac7621d.png"
+},{"./bundle-url":"3seVR"}],"6ab7M":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -45258,7 +45326,6 @@ try {
       /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Container, {
         fluid: true,
         id: "contact",
-        "data-aos": "fade",
         className: "Contact",
         __self: this,
         __source: {
@@ -45283,7 +45350,7 @@ try {
       }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
         className: "headline",
         "data-aos": "fade",
-        "data-aos-duration": "200",
+        "data-aos-duration": "500",
         __self: this,
         __source: {
           fileName: _jsxFileName,

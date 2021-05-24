@@ -16,10 +16,10 @@ function ContactView() {
     }, [])
 
     return (
-        <Container fluid id="contact" data-aos="fade" className="Contact">
+        <Container fluid id="contact" className="Contact">
             <Row >
                 <Col>
-                    <h1 className="headline" data-aos="fade" data-aos-duration="200">Contact me</h1>
+                    <h1 className="headline" data-aos="fade" data-aos-duration="500">Contact me</h1>
                 </Col>
             </Row>
         </Container>

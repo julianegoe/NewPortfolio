@@ -20,7 +20,8 @@ body {
 
 p {
     font-size: $paragraph-size;
-    background-color: white;
+    text-align: center;
+    background-color: $home-color;
 }
 
 i {
@@ -56,24 +57,30 @@ a:hover {
 .Home {
     width: 100vw;
     height: 200vh;
-    background-color: $home-color
+    background-color: whitesmoke
 };
 
 .Work {
     width: 100vw;
     height: 200vh;
-    background-color: $home-color
+    background-color: whitesmoke
 };
 
-.About {
+/* .About {
     width: 100vw;
     height: 200vh;
     background-color: $home-color
-};
+}; */
 
 .Contact {
     width: 100vw;
     height: 200vh;
-    background-color: $home-color
+    background-color: whitesmoke
 }
 
+@media screen and (max-width: 400px) {
+    .Work {
+        height: 400vh;
+    }
+    
+}

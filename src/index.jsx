@@ -25,9 +25,9 @@ function App() {
                         <Nav.Item className="m-3">
                             <HashLink onClick={() => setExpanded(false)} className="nav-link" smooth to="/#home">Home</HashLink>
                         </Nav.Item>
-                        <Nav.Item className=" m-3">
+                        {/*  <Nav.Item className=" m-3">
                             <HashLink onClick={() => setExpanded(false)} className="nav-link" smooth to="/#about">About</HashLink>
-                        </Nav.Item>
+                        </Nav.Item> */}
                         <Nav.Item className=" m-3">
                             <HashLink onClick={() => setExpanded(false)} className="nav-link" smooth to="/#work">Work</HashLink>
                         </Nav.Item>
@@ -39,12 +39,12 @@ function App() {
 
             </Navbar>
             <HomeView />
-            <AboutView />
+            {/*  <AboutView /> */}
             <WorkView />
             <ContactView />
             <Switch>
                 <Route exact path="/#home" component={HomeView} />
-                <Route exact path="/#about" component={AboutView} />
+                {/* <Route exact path="/#about" component={AboutView} /> */}
                 <Route exact path="/#work" component={WorkView} />
                 <Route exact path="/#contact" component={ContactView} />
             </Switch>

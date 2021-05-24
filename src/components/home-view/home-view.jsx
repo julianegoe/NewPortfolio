@@ -20,7 +20,7 @@ function HomeView() {
 
 
     return (
-        <Container fluid id="home" data-aos="fade" className="Home">
+        <Container fluid id="home" className="Home">
             <Row className="justfy-content-xs-center justify-content-sm-center justfy-content-md-center justfy-content-lg-center justfy-content-xl-center " >
                 <Col xs={12} sm={8} md={8} lg={8} xl={8} className="mt-5">
                     <h1 className="headline" data-aos="fade" data-aos-duration="500">Hi there 👋🏻</h1>
